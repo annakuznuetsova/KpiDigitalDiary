@@ -1,0 +1,6 @@
+@DigitalDiary_HostAddress = http://localhost:5281
+
+GET {{DigitalDiary_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
