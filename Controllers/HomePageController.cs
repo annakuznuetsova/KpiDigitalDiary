@@ -9,7 +9,6 @@ namespace DigitalDiary.Controllers
     [Route("api/[controller]")]
     public class HomePageController : ControllerBase
     {
-        // HomePageController
         private readonly IHomePageService _pageService;
         private readonly IUserService _userService;
 

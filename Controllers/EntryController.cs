@@ -9,7 +9,6 @@ namespace DigitalDiary.Controllers
     [Route("api/[controller]")]
     public class EntryController : ControllerBase
     {
-        // EntryController (конструктор)
         private readonly IEntryService _entryService;
         public EntryController(IEntryService entryService)
         {
